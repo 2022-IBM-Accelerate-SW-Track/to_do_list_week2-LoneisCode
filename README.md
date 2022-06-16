@@ -27,7 +27,7 @@ Hints (Useful Resources):
         1. In the Constructor method, add a new key w/ the name `date` set to an empty string to represent the current date 
         2. In the handleChange function, place the newly created `date` key and update the value using `Date().toLocaleString('en-US')` method
         3. In the handleSubmit function, make sure to set the newly created `date` key back to an empty string after passing the user values to the addTodo function
-      + Navigate to `src/component/todos.js`
+      + Navigate to `src/component/todos.js`+
         1. If not present, import ListItemButton and ListItemText components from the material UI library
         2. Within the Card component, substitute the CardContent component with a ListItemButton Component
             + **Before:**
